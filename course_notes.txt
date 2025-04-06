@@ -180,3 +180,17 @@ class GameScreen(Widget):
         self.numeric = 10
         self.label_text = "Here is some text"
 
+Buttons:
+* Add buttons
+* Add button handler function
+* Execute code on button press
+
+<GameScreen>:
+
+    FloatLayout:
+        pos: 0, 0
+        size: root.width, root.height
+
+        Button:
+            text: 'Press me'
+            on_press: root.press_button()

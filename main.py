@@ -5,14 +5,11 @@ from kivy.uix.label import Label
 from kivy.properties import StringProperty, NumericProperty
 
 class GameScreen(Widget):
-    label_text = StringProperty("")
-    numeric = NumericProperty(0)
 
-    def __init__(self, **kwargs):
-        super(GameScreen, self).__init__(**kwargs)
 
-        self.numeric = 10
-        self.label_text = "Here is some text"
+    def press_button(self):
+        print("Button pressed!")
+
 
 class LanguageLearnerApp(App):
     def build(self):
