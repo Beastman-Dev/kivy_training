@@ -1,0 +1,37 @@
+Topics for course:
+* Intro to Kivy
+* Installing Kivy
+* Running a simple Kivy program
+* Sizing and positioning elements
+
+What is Kivy?
+* Python library used to build apps
+* Excellent for rapidly building a complex UIs
+* Written mostly in Python
+* Open source
+* Cross platform (desktop and mobile)
+* GPU accelerated
+
+Why Kivy?
+* Can build apps for desktop and mobile
+* Very easy to build flexible and powerful UIs
+* Widely used so lots of help available
+* Free to use
+* Easy to install and setup
+
+How does Kivy work?
+* Layout and widget building system
+* Most elements are widgets
+* Organize widgets with layouts
+* Most UI building done in .kv files
+* Most app logic handled in .py files
+* Use variables in .kv files to keep track of state (updated automatically) through properties
+
+How will tutorials work?
+* Many options for layouts and widgets
+* Explore a few core layouts and widget
+* Build layouts and widgets with .kv and .py files
+* Most of the logic geared towards building our app
+* Likely many ways of building the same app
+* Only focus on building desktop apps
+
