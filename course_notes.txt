@@ -35,3 +35,14 @@ How will tutorials work?
 * Likely many ways of building the same app
 * Only focus on building desktop apps
 
+Install Kivy
+* sudo apt install python3-kivy
+* Current version of Kivy: 2.3.1
+* Supported Python versions: 3.8 - 3.13
+* Version of Python I'm currently using: 3.12.3
+
+Tasks:
+* Start new Kivy project
+* Create .py and .kv files
+* Add a custom widget
+* Run the project
