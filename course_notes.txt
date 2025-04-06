@@ -65,4 +65,7 @@ Sizing and Positioning, part 1:
 * size_hint(x,y) sets a size for the widget relative to it's parent as a decimal (0.5 = 50%)
 * If static size is used, set size_hint=(None,None)
 
-
+Sizing and Positioning Part 2:
+* Create a custom widget
+* Pass in a size and position
+* Set a default size and position
