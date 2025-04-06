@@ -46,3 +46,23 @@ Tasks:
 * Create .py and .kv files
 * Add a custom widget
 * Run the project
+
+Start new Kivy project
+* Create main python file
+* Import App class and at least one widget class from Kivy library
+* Create main class with app name as subclass of "App" Kivy class
+* Override build function in app class to include any widgets needed
+* Create kivy file with same name as class created in main python file
+* First line of kivy file should be "#:kivy 2.3.1" where "2.3.1" is the version of Kivy being used
+
+Sizing and Positioning, part 1:
+* Add widgets through .py file#:kivy 2.3.1
+* Use pos to position widgets
+* Use size and size_hint to resize widgets
+* Positions start at bottom left (0,0)
+* pos=(x,y) positions the child widget within the parent
+* size=(x,y) sets a static size for the widget
+* size_hint(x,y) sets a size for the widget relative to it's parent as a decimal (0.5 = 50%)
+* If static size is used, set size_hint=(None,None)
+
+
