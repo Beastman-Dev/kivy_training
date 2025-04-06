@@ -115,3 +115,31 @@ Sizing and Positioning Part 5:
             Button:
                 text: "Button 4"
 
+Displaying Text:
+* Explore Label widget
+* Customize Label
+
+<GameScreen>:
+
+    FloatLayout:
+        pos: 0, 0
+        size: root.width, root.height
+        
+        Label:
+            text: 'Here is some text in a label'
+            pos_hint: {'x': .1, 'y': .8}
+            size_hint: .8, .1
+            halign: 'left'
+            text_size: self.size
+            font_size: 24
+            bold: True
+            color: 0, 1, 0, 1
+
+class LanguageLearnerApp(App):
+    def build(self):
+        game_screen = GameScreen()
+        game_screen.add_widget(
+            Label(text="Welcome to Language Learner!")
+        )
+        return game_screen
+

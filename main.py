@@ -1,7 +1,7 @@
 from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.widget import Widget
-
+from kivy.uix.label import Label
 
 class GameScreen(Widget):
     pass
@@ -9,7 +9,11 @@ class GameScreen(Widget):
 
 class LanguageLearnerApp(App):
     def build(self):
-        return GameScreen()
+        game_screen = GameScreen()
+        game_screen.add_widget(
+            Label(text="Welcome to Language Learner!")
+        )
+        return game_screen
 
 
 if __name__ == "__main__":
