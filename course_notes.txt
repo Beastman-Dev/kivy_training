@@ -161,3 +161,22 @@ BorderImage:
 * If you want an image as a background, use BorderImage
 * If you want an image displayed as a separate object/widget, decoupled from the root, use Image
 
+Using Properties:
+* Explore Properties
+* Add numeric and string properties
+* Attach properties to widgets
+
+* Properties allow us to attach our widgets to state maintained in our Python files
+* Promise a widget that it will have a value at some point in time, which we can then update from the Python file and have the change automatically reflected in the Kivy file
+* Don't need to manually update each widget that needs to be updated
+
+class GameScreen(Widget):
+    label_text = StringProperty("")
+    numeric = NumericProperty(0)
+
+    def __init__(self, **kwargs):
+        super(GameScreen, self).__init__(**kwargs)
+
+        self.numeric = 10
+        self.label_text = "Here is some text"
+
