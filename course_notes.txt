@@ -143,3 +143,21 @@ class LanguageLearnerApp(App):
         )
         return game_screen
 
+Displaying Imags:
+* Import images into our project
+* Explore Image and BorderImage
+* Display an images
+* Customize the images
+
+BorderImage:
+
+<GameScreen>:
+    canvas:
+        BorderImage:
+            source: 'images/bote.png'
+            pos: 300, 300
+            size: 300, 300
+
+* If you want an image as a background, use BorderImage
+* If you want an image displayed as a separate object/widget, decoupled from the root, use Image
+

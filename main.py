@@ -10,9 +10,6 @@ class GameScreen(Widget):
 class LanguageLearnerApp(App):
     def build(self):
         game_screen = GameScreen()
-        game_screen.add_widget(
-            Label(text="Welcome to Language Learner!")
-        )
         return game_screen
 
 
