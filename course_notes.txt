@@ -85,3 +85,8 @@ Sizing and Positioning Part 3 Notes:
 * You can create child objects with their own properties
   * Parent properties can be referenced using root. (example: root.x)
 
+Sizing and Positioning Part 4:
+* Explore FloatLayout
+* Use pos_hint
+* Compare pos_hint to pos
+
