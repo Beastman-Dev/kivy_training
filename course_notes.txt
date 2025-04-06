@@ -90,3 +90,28 @@ Sizing and Positioning Part 4:
 * Use pos_hint
 * Compare pos_hint to pos
 
+Sizing and Positioning Part 5:
+* Explore GridLayout
+* Populate the grid with buttons
+
+<GameScreen>:
+
+    FloatLayout:
+        pos: 0, 0
+        size: root.width, root.height
+        
+        GridLayout:
+            cols: 2
+            pos_hint: {'x': .3, 'y': .3}
+            size_hint: None, None
+            size: root.width * .4, root.width * .4
+
+            Button:
+                text: "Button 1"
+            Button:
+                text: "Button 2"
+            Button:
+                text: "Button 3"
+            Button:
+                text: "Button 4"
+
