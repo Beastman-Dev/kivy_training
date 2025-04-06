@@ -69,3 +69,19 @@ Sizing and Positioning Part 2:
 * Create a custom widget
 * Pass in a size and position
 * Set a default size and position
+
+Sizing and Positioning Part 3:
+* Link our custom widget to .kv file
+* Use canvas to specify pos and size
+* Use self to get current pos and size
+* Use root to get parent pos and size
+
+Sizing and Positioning Part 3 Notes:
+* kv files use <> for class references
+* kv files use tabs and colons with no equals or parentheses
+  * Example: 'size: 50, 50' instead of size=(50, 50)
+* You can add properties to a class (example: rectangle)
+  * Those properties can reference the parent class using self. (example: self.x)
+* You can create child objects with their own properties
+  * Parent properties can be referenced using root. (example: root.x)
+

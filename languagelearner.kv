@@ -1,1 +1,19 @@
 #:kivy 2.2.1
+
+<FunkyButton>:
+    canvas:
+        Rectangle:
+            pos: self.x + 25, self.y + 25
+            size: 150, 150
+
+    Button:
+        pos: root.x + 50, root.y + 50
+        size_hint: None, None
+        size: 100, 100
+        background_color: 1, 0, 0, 1
+
+    Button:
+        pos: root.x + 75, root.y + 75
+        size_hint: None, None
+        size: 50, 50
+        background_color: 0, 1, 0, 1
